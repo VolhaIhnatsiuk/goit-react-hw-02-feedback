@@ -1,9 +1,8 @@
-import { Container, Title, List, Item } from "./Statistics.styled"
+import { Container, List, Item } from "./Statistics.styled"
 
 export const Statistics = ({ good, neutral, bad, total, positivePercentage, children, }) => {
     return (
     <Container>
-      <Title>Statistics</Title>
       {total === 0 ? (
         children
       ) : (
